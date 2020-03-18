@@ -1,0 +1,18 @@
+
+Time measurements for pattern kruszwil :
+
+Naive:
+101.189957142
+Automat:
+189.890273094
+KMP:
+95.0172019005
+
+Time measurements for pattern art
+
+Naive:
+0.0390019416809
+Automat:
+0.0894088745117
+KMP:
+0.0465569496155
