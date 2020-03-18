@@ -22,10 +22,3 @@ def prefix_function(pattern):
             k = k + 1
         pi.append(k)
     return pi
-
-textfile=open("1997_714.txt", 'r')
-filetext=textfile.read()
-textfile.close()
-
-pattern="art"
-print(kmp_string_matching(filetext, pattern))

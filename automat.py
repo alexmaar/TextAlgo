@@ -28,10 +28,3 @@ def transition_table(pattern):
                     break
             result[q][a] = k
     return result
-
-textfile=open("1997_714.txt", 'r')
-filetext=textfile.read()
-textfile.close()
-
-pattern="art"
-print(fa_string_matching(filetext, transition_table(pattern)))
